@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="inventorysorter"
+version="1.0.0"
+displayName="Inventory Sorter"
+description='''
+A simple mod that adds a keybind to sort your inventory and chests automatically.
+Press 'R' (default) to sort items.
+'''
+logoFile="logo.png"
+authors="woxlo1"
+
+[[dependencies.inventorysorter]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.inventorysorter]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
